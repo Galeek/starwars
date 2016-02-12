@@ -34,3 +34,41 @@ var quotes = [{
   'author': '- Darth Vader',
   'quote': 'The Force is strong with this one.'
 }];
+
+//console.log("test");
+
+// var React = require('react');
+// var ReactDOM = require('react-dom');
+
+// ReactDOM.render(
+  // React.createElement('h1', null, 'Hello, world!'),
+  // document.getElementById('example')
+// );
+
+//msgbox round (12.0038261413);
+//console.log(quotes.length); // 11
+//console.log(quotes[i].author);
+
+// var nbaleatoire;
+// nbaleatoire = 
+//require ('html');
+
+function getRandomIntInclusive(min, max) {
+  return Math.floor(Math.random() * (max - min +1)) + min;
+}
+
+//console.log(getRandomIntInclusive(1, 11));
+
+var i = getRandomIntInclusive(1, 11);
+// console.log(quotes[i].quote); // Exercice 1
+// console.log("Quote by " + quotes[i].author); // Exercice 2
+
+//var li = document.getElementsByTagName('author');
+
+var React = require('react');
+var ReactDOM = require('react-dom');
+
+ReactDOM.render(
+  React.createElement('h1', null, 'Hello, world!'),
+  document.getElementById('example')
+);
